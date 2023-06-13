@@ -236,7 +236,24 @@ main h1 {
 @media (max-width: 768px) {
 
 
+    main{
+    height: 100%;
+    min-height: 100vh;
+    
+}
     #ultimahora div {
         flex-basis: 100%;
+       
     }
+    #ultimahora{
+        height: 100%;
+        min-height: 100vh;
+        overflow: auto;
+    }
+    #ultimahora div img{
+        object-fit: contain;
+
+    }
+    
+}
 }
