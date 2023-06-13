@@ -215,3 +215,11 @@ div#email input {
         height: 48px;
     }
 }
+@media (max-width: 768px) {
+#contenido {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5%;
+    
+}
+}
