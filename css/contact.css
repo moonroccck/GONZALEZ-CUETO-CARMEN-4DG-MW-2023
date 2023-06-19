@@ -216,10 +216,52 @@ div#email input {
     }
 }
 @media (max-width: 768px) {
-#contenido {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 5%;
-    
+    #contenido {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 5%;
+
+    }
 }
+
+.menu-toggle {
+    display: none;
+}
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        font-size: 24px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        position: absolute;
+        top: 10px;
+
+    }
+
+    .menu-container.show ul {
+        display: block;
+        list-style-type: none;
+
+    }
+
+    .menu-container.show li {
+        display: inline;
+        padding: 14px 16px;
+        float: none;
+    }
+
+    .menu-container.show li a {
+        display: block;
+        padding: 14px 16px;
+    }
+
+    .menu-container ul {
+        display: none;
+    }
+
+    .menu-container.show {
+        display: block;
+    }
 }
