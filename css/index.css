@@ -147,7 +147,7 @@ li a:hover {
 
 #ultimahora {
     background-color: #FABADA;
-    padding: 2%;
+    padding: 5%;
     margin-bottom: 1%;
     display: flex;
     flex-wrap: wrap;
@@ -198,7 +198,7 @@ li a:hover {
     border-color: black;
     border-width: 1px;
     border-style: solid;
-    padding: 1%;
+    padding: 5%;
     box-sizing: border-box;
     min-height: 100vh;
 
@@ -257,3 +257,40 @@ main h1 {
     
 }
 }
+
+.menu-toggle {
+    display: none;
+}
+@media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+      font-size: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      position: absolute;
+      top: 10px;
+
+    }
+    .menu-container.show ul {
+        display: block;
+        list-style-type: none;
+
+      }
+      .menu-container.show li  {
+        display:inline ;
+        padding: 14px 16px;
+      }
+      .menu-container.show li a {
+        display: block;
+        padding: 14px 16px;
+      }
+      .menu-container ul {
+        display: none;
+      }
+
+      .menu-container.show {
+        display: block;
+      }
+  }
