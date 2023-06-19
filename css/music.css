@@ -111,6 +111,7 @@ li #blog {
 }
 #musica {
     display: inline-block;
+    float: left;
     text-align: center;
     background: white;
     overflow: hidden;
