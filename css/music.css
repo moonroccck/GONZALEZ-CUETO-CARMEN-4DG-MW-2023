@@ -219,6 +219,16 @@ main h1 {
 
     }
 
+    #ultimahora {
+
+    display: none;
+
+}
+    #ultimahora div img {
+
+    width: -webkit-fill-available;
+
+}
     .menu-container.show ul {
         display: block;
         list-style-type: none;
