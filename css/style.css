@@ -194,7 +194,9 @@ h1 {
         top: 10px;
 
     }
-
+#Stylenews{
+    display: block;
+}
     #Stylenews div img {
     width: -webkit-fill-available;
 
