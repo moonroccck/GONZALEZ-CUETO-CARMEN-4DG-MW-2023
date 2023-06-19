@@ -219,7 +219,9 @@ main h1 {
 
     }
 
-   
+   #ultimahora{
+       display: block;
+   }
     #ultimahora div img {
 
     width: -webkit-fill-available;
