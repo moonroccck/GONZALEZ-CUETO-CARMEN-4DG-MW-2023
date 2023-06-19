@@ -111,7 +111,6 @@ li #blog {
 }
 #musica {
     display: inline-block;
-    float: left;
     text-align: center;
     background: white;
     overflow: hidden;
@@ -167,7 +166,7 @@ h1 {
     border-color: black;
     border-width: 1px;
     border-style: solid;
-    padding: 1%;
+    padding: 5%;
     box-sizing: border-box;
     min-height: 100vh;
     height: 100%;
@@ -198,8 +197,49 @@ main h1 {
 }
 
 @media (max-width: 768px) {
-    
+
     #ultimahora div {
         flex-basis: 100%;
+    }
+}
+.menu-toggle {
+    display: none;
+}
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        font-size: 24px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        position: absolute;
+        top: 10px;
+
+    }
+
+    .menu-container.show ul {
+        display: block;
+        list-style-type: none;
+
+    }
+
+    .menu-container.show li {
+        display: inline;
+        padding: 14px 16px;
+        float: none;
+    }
+
+    .menu-container.show li a {
+        display: block;
+        padding: 14px 16px;
+    }
+
+    .menu-container ul {
+        display: none;
+    }
+
+    .menu-container.show {
+        display: block;
     }
 }
